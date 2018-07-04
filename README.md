@@ -2,9 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
-## Development server
+#Install application
+
+type npm install into the console from the root directory and from the directory ./MeanApp
+
+## Run Application
 
 Run `npm start` from the directory ./MeanApp for to run the Mean Application. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+
+
+# Api request
+
+GET  '/users'  'http://localhost:3000'  return the list of users from  Mongodb database
+
+GET  '/user:id' 'http://localhost:3000' return the user with id ':id' from  Mongodb database
+
+POST  '/user'   'http://localhost:3000' send a new user to save into Mongodb database
+
+PUT '/user:id'  'http://localhost:3000' update the user with the id ':id' into Mongodb database
 
 ## Code scaffolding
 
