@@ -14,13 +14,15 @@ Run `npm start` from the directory ./MeanApp for to run the Mean Application. Na
 
 # Api request
 
-GET  '/users'  'http://localhost:3000'  return the list of users from  Mongodb database
+GET  '/users'      'http://localhost:3000'  return the list of users from  Mongodb database
 
-GET  '/user:id' 'http://localhost:3000' return the user with id ':id' from  Mongodb database
+GET  '/user:id'    'http://localhost:3000'  return the user with id= ':id' from  Mongodb database
 
-POST  '/user'   'http://localhost:3000' send a new user to save into Mongodb database
+POST  '/user'      'http://localhost:3000'  add a new user into Mongodb database
 
-PUT '/user:id'  'http://localhost:3000' update the user with the id ':id' into Mongodb database
+PUT '/user:id'     'http://localhost:3000'  update collection user in Mongodb database for the user with the id= ':id'  
+
+DELETE '/user:id'  'http://localhost:3000'  delete the user with the id= ':id' from Mongodb database
 
 ## Code scaffolding
 
