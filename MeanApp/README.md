@@ -16,7 +16,7 @@ Run `npm start` from the directory ./MeanApp for to run the Mean Application. Na
 
 GET  '/users'      'http://localhost:3000'  return the list of users from  Mongodb database
 
-GET  '/user:id'    'http://localhost:3000'  return the user with id= ':id' from  Mongodb database
+GET  '/user/:id'    'http://localhost:3000'  return the user with id= ':id' from  Mongodb database
 
 POST  '/user'      'http://localhost:3000'  add a new user into Mongodb database
 
